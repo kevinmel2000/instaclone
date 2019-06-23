@@ -14,9 +14,9 @@
         <div class="pr-5"><strong>23k</strong> followers</div>
         <div class="pr-5"><strong>212</strong> following</div>
       </div>
-      <div class="pt-4 font-weight-bold">Instaclone</div>
-      <div>❤️ Allah , ❤️ Istri</div>
-      <div><a href="#">www.instaclone.com</a></div>
+    <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
+      <div>{{ $user->profile->description }}</div>
+      <div><a href={{ $user->profile->url }} target="_blank">{{ $user->profile->url }}</a></div>
     </div>
   </div>
 
